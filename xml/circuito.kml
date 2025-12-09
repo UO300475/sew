@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Salida: Autódromo Internacional do Algarve</name>
+      <description>Circuito situado en Mexilhoeira Grande, Portugal</description>
+      <Point>
+        <coordinates>-8.630833,37.232222,103.41</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <name>Autódromo Internacional do Algarve</name>
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellation>1</tessellation>
+        <coordinates>-8.630833,37.232222,103.41
+-8.6319024,37.2350797,97.11
+-8.6317615,37.2358708,98.31
+-8.6308960,37.2363550,100
+-8.6303354,37.2364855,100.88
+-8.6291578,37.2362547,102.51
+-8.6290817,37.2358232,102.49
+-8.6296407,37.2355702,102.62
+-8.6300518,37.2348475,109.97
+-8.6288034,37.2314027,108.55
+-8.6279356,37.2314379,109.95
+-8.6278445,37.2319620,113.91
+-8.6281086,37.2329075,117.29
+-8.6287124,37.2338159,118.13
+-8.6286981,37.2345621,113.46
+-8.6281158,37.2350786,114.03
+-8.6274852,37.2348850,120.65
+-8.6270828,37.2326365,112.69
+-8.6263263,37.2316841,115.7
+-8.6249798,37.2311344,124.84
+-8.6244613,37.2306070,123.46
+-8.6248114,37.2300364,121.62
+-8.6260224,37.2297631,110.58
+-8.6268789,37.2290467,112.15
+-8.6270778,37.2280588,115.42
+-8.6264312,37.2277844,120.25
+-8.6256085,37.2285857,119.99
+-8.6247672,37.2276954,110.87
+-8.6258526,37.2266657,109.14
+-8.6290547,37.2273023,96.2
+-8.630833,37.232222,103.41</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>#ff0000ff</color>
+          <width>5</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>

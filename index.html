@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+
+    <meta name ="author" content ="Guillermo Gil Naves" />
+
+    <meta name ="description" content ="Pantalla de inicio del proyecto MotoGp-Desktop" />
+
+    <meta name ="keywords" content ="aquí cada documento debe tener la lista
+    de las palabras clave del mismo separadas por comas" />
+
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <title>MotoGP</title>
+    <link rel="icon" href="multimedia/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src = "js/carrusel.js"></script>
+    <script src="js/noticias.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Datos con el contenidos que aparece en el navegador -->
+        <h1>MotoGP Desktop</h1>
+        <nav>
+            <a class="activate" href="index.html" title = "Inicio de MotoGp-Desktop">Inicio</a>
+            <a href="piloto.html" title = "Información del piloto">Piloto</a>
+            <a href="circuito.html" title = "Inicio del circuito">Circuito</a>
+            <a href="meteorologia.html" title = "Información de la meteorologia">Meteorologia</a>
+            <a href="clasificaciones.html" title = "Información de las clasificaciones">Clasificaciones</a>
+            <a href="juegos.html" title = "Información de los juegos">Juegos</a>
+            <a href="ayuda.html" title = "Información de la ayuda">Ayuda</a>
+        </nav>
+    </header>
+    <main>
+        <script>
+            const carrusel = new Carrusel("MotoGP, Autódromo Internacional do Algarve")
+            carrusel.getFotografias()
+            
+            const noticias = new Noticias("Moto GP")
+            noticias.buscar()
+        </script>
+    </main>
+</body>
+</html>

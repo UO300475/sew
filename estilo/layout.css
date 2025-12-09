@@ -1,0 +1,51 @@
+/* Guillermo Gil Naves UO300475 */
+/* Layout general del proyecto MotoGP-Desktop*/
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+header nav{
+    display: flex;
+    gap: 8px
+}
+
+@media(max-width: 465px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        gap: 4px
+    }
+
+    header + p{
+        display: none;
+    }
+
+    video {
+        width:100%;
+        height:auto;
+    }
+
+    figure img {
+        width:100%;
+        height:auto;
+    }
+    
+    audio {
+        width:100%;
+    }
+
+    article h2 + img{
+        width: 100%;
+    }
+
+    svg {
+        width: 100%;
+    }
+}

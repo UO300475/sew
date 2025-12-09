@@ -1,0 +1,39 @@
+/* Guillermo Gil Naves UO300475 */
+/* Estilos generales del proyecto MotoGP-Desktop*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #0a0a00;    
+    background-color:#ebe8e0; 
+}
+
+header{
+    background-color:#a8bbb0;
+}
+
+header a{
+    color: #d01110;
+    text-decoration-line: none;
+}
+
+h1 { 
+    color: #d01110;   
+}
+
+nav { 
+    color: #d01110;   
+}
+
+header + p{
+    font-size: 12px;
+}
+
+.activate {
+    color:#0a0a00; 
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration-line: underline;
+}
+  

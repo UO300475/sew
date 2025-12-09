@@ -1,0 +1,36 @@
+/* Guillermo Gil Naves UO300475 */
+/* Layout para juego de cartas*/
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 8px; /* Ajusta si necesitas más o menos espacio */
+    justify-content: center;
+}
+
+main h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+main p {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+@media (max-width: 465px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, auto);
+        gap: 8px; /* Ajusta si necesitas más o menos espacio */
+        justify-content: center;
+    }
+    main h2 {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+}
+

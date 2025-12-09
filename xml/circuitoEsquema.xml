@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circuito xmlns="http://www.uniovi.es/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+xsi:schemaLocation="http://www.uniovi.es/ circuito.xsd">
+
+  <nombre>Autódromo Internacional do Algarve</nombre>
+  <longitud unidad="m">4592</longitud>
+  <anchura unidad="m">18</anchura>
+  <fecha anio="2025">2025-11-09</fecha>
+  <horaInicio zona="CET" formato="HH:MM">15:00</horaInicio>
+  <vueltas>25</vueltas>
+  <localidad>Mexilhoeira Grande</localidad>
+  <pais>Portugal</pais>
+  <patrocinador>MEO</patrocinador>
+  <referencias>
+    <ref url="https://www.motogp.com/en/calendar/2023/event/portugal/4b70d9b1-3f31-4521-9ec1-9d18cd67a32a">MotoGP.com: Ficha del Autódromo Internacional do Algarve (Portimão)</ref>
+    <ref url="https://www.crash.net/motogp/results/1084681/1/2025-australian-motogp-phillip-island-race-results">Crash.net: Resultados Australian GP 2025 (ganador Raúl Fernández)</ref>
+    <ref url="https://www.crash.net/motogp/results/1084689/1/phillip-island-australia-new-2025-motogp-world-championship-standings">Crash.net: Clasificación mundial tras Australian GP 2025</ref>
+    <ref url="https://www.autosport.com/motogp/results/2025/australian-gp-654352/?st=RACE">Autosport: Tiempo total de carrera (Australian GP 2025)</ref>
+  </referencias>
+  <galeriaFotos>
+    <foto src="multimedia/mapa_circuito.jpg" titulo="Mapa del circuito" tipo="jpg"/>
+    <foto src="multimedia/panoramica_circuito.jpg" titulo="Panorámica del circuito" tipo="jpg"/>
+  </galeriaFotos>
+  <galeriaVideos>
+    <video src="multimedia/video_circuito.mp4" titulo="Vuelta de referencia" tipo="mp4"/>
+  </galeriaVideos>
+  <origen>
+    <longitudGeo unidad="deg">-8.630833</longitudGeo>
+    <latitudGeo unidad="deg">37.232222</latitudGeo>
+    <altitudGeo unidad="m">103.41</altitudGeo>
+  </origen>
+  <tramos>
+    <!-- Recta 1-->
+    <tramo>
+      <distancia unidad="m">311.35</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6319024</longitudGeo>
+        <latitudGeo unidad="deg">37.2350797</latitudGeo>
+        <altitudGeo unidad="m">97.11</altitudGeo>
+      </fin>
+      <sector>1</sector>
+    </tramo>
+    <!-- Curva 1-->
+    <tramo>
+      <distancia unidad="m">99.48</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6317615</longitudGeo>
+        <latitudGeo unidad="deg">37.2358708</latitudGeo>
+        <altitudGeo unidad="m">98.31</altitudGeo>
+      </fin>
+      <sector>1</sector>
+    </tramo>
+    <!-- Recta 2-->
+    <tramo>
+      <distancia unidad="m">93.65</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6308960</longitudGeo>
+        <latitudGeo unidad="deg">37.2363550</latitudGeo>
+        <altitudGeo unidad="m">100</altitudGeo>
+      </fin>
+      <sector>1</sector>
+    </tramo>
+    <!-- Curva 2-->
+    <tramo>
+      <distancia unidad="m">53.21</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6303354</longitudGeo>
+        <latitudGeo unidad="deg">37.2364855</latitudGeo>
+        <altitudGeo unidad="m">100.88</altitudGeo>
+      </fin>
+      <sector>1</sector>
+    </tramo>
+    <!-- Recta 3-->
+    <tramo>
+      <distancia unidad="m">105.65</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6291578</longitudGeo>
+        <latitudGeo unidad="deg">37.2362547</latitudGeo>
+        <altitudGeo unidad="m">102.51</altitudGeo>
+      </fin>
+      <sector>1</sector>
+    </tramo>
+    <!-- Curva 3-->
+    <tramo>
+      <distancia unidad="m">68.24</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6290817</longitudGeo>
+        <latitudGeo unidad="deg">37.2358232</latitudGeo>
+        <altitudGeo unidad="m">102.49</altitudGeo>
+      </fin>
+      <sector>1</sector>
+    </tramo>
+    <!-- Recta 4-->
+    <tramo>
+      <distancia unidad="m">58.06</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6296407</longitudGeo>
+        <latitudGeo unidad="deg">37.2355702</latitudGeo>
+        <altitudGeo unidad="m">102.62</altitudGeo>
+      </fin>
+      <sector>1</sector>
+    </tramo>
+    <!-- Curva 4-->
+    <tramo>
+      <distancia unidad="m">97.64</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6300518</longitudGeo>
+        <latitudGeo unidad="deg">37.2348475</latitudGeo>
+        <altitudGeo unidad="m">109.97</altitudGeo>
+      </fin>
+      <sector>1</sector>
+    </tramo>
+    <!-- Recta 5-->
+    <tramo>
+      <distancia unidad="m">398.55</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6288034</longitudGeo>
+        <latitudGeo unidad="deg">37.2314027</latitudGeo>
+        <altitudGeo unidad="m">108.55</altitudGeo>
+      </fin>
+      <sector>2</sector>
+    </tramo>
+    <!-- Curva 5-->
+    <tramo>
+      <distancia unidad="m">142.49</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6279356</longitudGeo>
+        <latitudGeo unidad="deg">37.2314379</latitudGeo>
+        <altitudGeo unidad="m">109.95</altitudGeo>
+      </fin>
+      <sector>2</sector>
+    </tramo>
+    <!-- Recta 6-->
+    <tramo>
+      <distancia unidad="m">57.87</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6278445</longitudGeo>
+        <latitudGeo unidad="deg">37.2319620</latitudGeo>
+        <altitudGeo unidad="m">113.91</altitudGeo>
+      </fin>
+      <sector>2</sector>
+    </tramo>
+    <!-- Curva 6-->
+    <tramo>
+      <distancia unidad="m">109.51</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6281086</longitudGeo>
+        <latitudGeo unidad="deg">37.2329075</latitudGeo>
+        <altitudGeo unidad="m">117.29</altitudGeo>
+      </fin>
+      <sector>2</sector>
+    </tramo>
+    <!-- Recta 7-->
+    <tramo>
+      <distancia unidad="m">114.58</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6287124</longitudGeo>
+        <latitudGeo unidad="deg">37.2338159</latitudGeo>
+        <altitudGeo unidad="m">118.13</altitudGeo>
+      </fin>
+      <sector>2</sector>
+    </tramo>
+    <!-- Curva 7-->
+    <tramo>
+      <distancia unidad="m">89.85</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6286981</longitudGeo>
+        <latitudGeo unidad="deg">37.2345621</latitudGeo>
+        <altitudGeo unidad="m">113.46</altitudGeo>
+      </fin>
+      <sector>2</sector>
+    </tramo>
+    <!-- Recta 8-->
+    <tramo>
+      <distancia unidad="m">78.1</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6281158</longitudGeo>
+        <latitudGeo unidad="deg">37.2350786</latitudGeo>
+        <altitudGeo unidad="m">114.03</altitudGeo>
+      </fin>
+      <sector>2</sector>
+    </tramo>
+    <!-- Curva 8-->
+    <tramo>
+      <distancia unidad="m">77.86</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6274852</longitudGeo>
+        <latitudGeo unidad="deg">37.2348850</latitudGeo>
+        <altitudGeo unidad="m">120.65</altitudGeo>
+      </fin>
+      <sector>2</sector>
+    </tramo>
+    <!-- Recta 9-->
+    <tramo>
+      <distancia unidad="m">253.64</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6270828</longitudGeo>
+        <latitudGeo unidad="deg">37.2326365</latitudGeo>
+        <altitudGeo unidad="m">112.69</altitudGeo>
+      </fin>
+      <sector>2</sector>
+    </tramo>
+    <!-- Curva 9-->
+    <tramo>
+      <distancia unidad="m">135.36</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6263263</longitudGeo>
+        <latitudGeo unidad="deg">37.2316841</latitudGeo>
+        <altitudGeo unidad="m">115.7</altitudGeo>
+      </fin>
+      <sector>2</sector>
+    </tramo>
+    <!-- Recta 10-->
+    <tramo>
+      <distancia unidad="m">133.57</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6249798</longitudGeo>
+        <latitudGeo unidad="deg">37.2311344</latitudGeo>
+        <altitudGeo unidad="m">124.84</altitudGeo>
+      </fin>
+      <sector>2</sector>
+    </tramo>
+    <!-- Curva 10-->
+    <tramo>
+      <distancia unidad="m">75.75</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6244613</longitudGeo>
+        <latitudGeo unidad="deg">37.2306070</latitudGeo>
+        <altitudGeo unidad="m">123.46</altitudGeo>
+      </fin>
+      <sector>2</sector>
+    </tramo>
+    <!-- Curva 11-->
+    <tramo>
+      <distancia unidad="m">86.3</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6248114</longitudGeo>
+        <latitudGeo unidad="deg">37.2300364</latitudGeo>
+        <altitudGeo unidad="m">121.62</altitudGeo>
+      </fin>
+      <sector>2</sector>
+    </tramo>
+    <!-- Recta 11-->
+    <tramo>
+      <distancia unidad="m">113.08</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6260224</longitudGeo>
+        <latitudGeo unidad="deg">37.2297631</latitudGeo>
+        <altitudGeo unidad="m">110.58</altitudGeo>
+      </fin>
+      <sector>3</sector>
+    </tramo>
+    <!-- Curva 12-->
+    <tramo>
+      <distancia unidad="m">116.63</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6268789</longitudGeo>
+        <latitudGeo unidad="deg">37.2290467</latitudGeo>
+        <altitudGeo unidad="m">112.15</altitudGeo>
+      </fin>
+      <sector>3</sector>
+    </tramo>
+    <!-- Recta 12-->
+    <tramo>
+      <distancia unidad="m">111.76</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6270778</longitudGeo>
+        <latitudGeo unidad="deg">37.2280588</latitudGeo>
+        <altitudGeo unidad="m">115.42</altitudGeo>
+      </fin>
+      <sector>3</sector>
+    </tramo>
+    <!-- Curva 13-->
+    <tramo>
+      <distancia unidad="m">107.95</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6264312</longitudGeo>
+        <latitudGeo unidad="deg">37.2277844</latitudGeo>
+        <altitudGeo unidad="m">120.25</altitudGeo>
+      </fin>
+      <sector>3</sector>
+    </tramo>
+    <!-- Recta 13-->
+    <tramo>
+      <distancia unidad="m">117.64</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6256085</longitudGeo>
+        <latitudGeo unidad="deg">37.2285857</latitudGeo>
+        <altitudGeo unidad="m">119.99</altitudGeo>
+      </fin>
+      <sector>3</sector>
+    </tramo>
+    <!-- Curva 14-->
+    <tramo>
+      <distancia unidad="m">196</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6247672</longitudGeo>
+        <latitudGeo unidad="deg">37.2276954</latitudGeo>
+        <altitudGeo unidad="m">110.87</altitudGeo>
+      </fin>
+      <sector>3</sector>
+    </tramo>
+
+    <!-- Recta 14-->
+    <tramo>
+      <distancia unidad="m">153.18</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6258526</longitudGeo>
+        <latitudGeo unidad="deg">37.2266657</latitudGeo>
+        <altitudGeo unidad="m">109.14</altitudGeo>
+      </fin>
+      <sector>3</sector>
+    </tramo>
+
+    <!-- Curva 15-->
+    <tramo>
+      <distancia unidad="m">380.33</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.6290547</longitudGeo>
+        <latitudGeo unidad="deg">37.2273023</latitudGeo>
+        <altitudGeo unidad="m">96.2</altitudGeo>
+      </fin>
+      <sector>3</sector>
+    </tramo>
+
+    <!-- Recta 15-->
+    <tramo>
+      <distancia unidad="m">589.94</distancia>
+      <fin>
+        <longitudGeo unidad="deg">-8.630833</longitudGeo>
+    <latitudGeo unidad="deg">37.232222</latitudGeo>
+    <altitudGeo unidad="m">103.41</altitudGeo>
+      </fin>
+      <sector>3</sector>
+    </tramo>
+  </tramos>
+  <vencedor>
+    <nombrePiloto>Raúl Fernández</nombrePiloto>
+    <tiempo formato="HH:MM:SS.mmm">00:39:49.571</tiempo>
+  </vencedor>
+  <clasificacionMundial>
+    <piloto posicion="1" puntos="545" equipo="Ducati Lenovo Team">
+      <nombrePiloto>Marc Márquez</nombrePiloto>
+    </piloto>
+    <piloto posicion="2" puntos="379" equipo="BK8 Gresini Racing MotoGP">
+      <nombrePiloto>Álex Márquez</nombrePiloto>
+    </piloto>
+    <piloto posicion="3" puntos="282" equipo="Aprilia Racing">
+      <nombrePiloto>Marco Bezzecchi</nombrePiloto>
+    </piloto>
+  </clasificacionMundial>
+</circuito>

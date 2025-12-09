@@ -1,0 +1,67 @@
+<!-- DTD para describir la gramática de circuito.xml -->
+<!ELEMENT circuito (nombre,longitud,anchura,fecha,horaInicio,vueltas,localidad,pais,patrocinador,referencias,galeriaFotos,galeriaVideos,origen,tramos,vencedor,clasificacionMundial)>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud
+          unidad (m) "m">
+
+<!ELEMENT anchura (#PCDATA)>
+<!ATTLIST anchura
+          unidad (m) "m">
+
+<!ELEMENT fecha (#PCDATA)>
+<!ATTLIST fecha anio CDATA #FIXED "2025">
+
+<!ELEMENT horaInicio (#PCDATA)>
+<!ATTLIST horaInicio zona (CET|CEST) #REQUIRED
+                       formato CDATA "HH:MM">
+
+<!ELEMENT vueltas (#PCDATA)>
+
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT patrocinador (#PCDATA)>
+
+<!ELEMENT referencias (ref, ref, ref, ref*)>
+<!ELEMENT ref (#PCDATA)>
+<!ATTLIST ref url CDATA #IMPLIED>
+
+<!ELEMENT galeriaFotos (foto, foto?, foto?, foto?, foto?)>
+<!ELEMENT foto EMPTY>
+<!ATTLIST foto src CDATA #REQUIRED
+             titulo CDATA #IMPLIED
+             tipo (jpg|jpeg|png|webp) #IMPLIED>
+
+<!ELEMENT galeriaVideos (video, video?, video?)>
+<!ELEMENT video EMPTY>
+<!ATTLIST video src CDATA #REQUIRED
+               titulo CDATA #IMPLIED
+               tipo (mp4|mov|mkv|webm) #IMPLIED>
+
+<!ELEMENT origen (longitudGeo, latitudGeo, altitudGeo)>
+<!ELEMENT longitudGeo (#PCDATA)>
+<!ATTLIST longitudGeo unidad (deg) "deg">
+<!ELEMENT latitudGeo (#PCDATA)>
+<!ATTLIST latitudGeo unidad (deg) "deg">
+<!ELEMENT altitudGeo (#PCDATA)>
+<!ATTLIST altitudGeo unidad (m) "m">
+
+<!ELEMENT tramos (tramo+)>
+<!ELEMENT tramo (distancia, fin, sector)>
+<!ELEMENT distancia (#PCDATA)>
+<!ATTLIST distancia unidad (m) "m">
+<!ELEMENT fin (longitudGeo, latitudGeo, altitudGeo)>
+<!ELEMENT sector (#PCDATA)>
+
+<!ELEMENT vencedor (nombrePiloto, tiempo)>
+<!ELEMENT nombrePiloto (#PCDATA)>
+<!ELEMENT tiempo (#PCDATA)>
+<!ATTLIST tiempo formato CDATA "HH:MM:SS.mmm">
+
+<!ELEMENT clasificacionMundial (piloto, piloto, piloto)>
+<!ELEMENT piloto (nombrePiloto)>
+<!ATTLIST piloto posicion (1|2|3) #REQUIRED
+                 puntos CDATA #IMPLIED
+                 equipo CDATA #IMPLIED>
