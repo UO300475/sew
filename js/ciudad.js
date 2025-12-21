@@ -133,19 +133,29 @@
 
         procesarJSONCarrera(json) {
 
-            const datosProcesados = {
-                horas: json.hourly.time,
-                temperatura: json.hourly.temperature_2m,
-                termica: json.hourly.apparent_temperature,
-                lluvia: json.hourly.precipitation,
-                humedad: json.hourly.relativehumidity_2m,
-                vientoVel: json.hourly.windspeed_10m,
-                vientoDir: json.hourly.winddirection_10m,
+            // Buscar el índice de las 14:00
+            const indice = json.hourly.time.findIndex(hora =>
+                hora.endsWith("14:00")
+            );
+
+            if (indice === -1) {
+                console.error("No se encontraron datos para las 14:00");
+                return null;
+            }
+
+            const jsonProcesado = {
+                hora: json.hourly.time[indice],
+                temperatura: json.hourly.temperature_2m[indice],
+                termica: json.hourly.apparent_temperature[indice],
+                lluvia: json.hourly.precipitation[indice],
+                humedad: json.hourly.relativehumidity_2m[indice],
+                vientoVel: json.hourly.windspeed_10m[indice],
+                vientoDir: json.hourly.winddirection_10m[indice],
                 amanecer: json.daily.sunrise[0],
                 anochecer: json.daily.sunset[0]
             };
 
-            return datosProcesados;
+            return jsonProcesado;
         }
 
        mostrarMeteoEnHTML(datos) {
