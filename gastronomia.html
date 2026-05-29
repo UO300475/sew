@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Leon - Gastronomia</title>
+    <meta name="author" content="Guillermo Gil Naves" />
+    <meta name="description" content="Gastronomia tipica de la provincia de Leon" />
+    <meta name="keywords" content="Leon, gastronomia, cecina, botillo, morcilla" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.ico" type="image/ico" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" title="Pantalla Principal">Leon Desktop</a></h1>
+        <nav>
+            <a href="index.html" title="Pagina principal">Inicio</a>
+            <a class="activate" href="gastronomia.html" title="Gastronomia tipica de Leon">Gastronomia</a>
+            <a href="rutas.html" title="Rutas turisticas por Leon">Rutas</a>
+            <a href="meteorologia.html" title="Informacion meteorologica de Leon">Meteorologia</a>
+            <a href="juego.html" title="Juego sobre Leon">Juego</a>
+            <a href="reservas.php" title="Reservas de recursos turisticos">Reservas</a>
+            <a href="ayuda.html" title="Ayuda del sitio web">Ayuda</a>
+        </nav>
+    </header>
+    <p>
+        Estas en : <a href="index.html" title="Pantalla Principal">Inicio</a> >> <strong>Gastronomia</strong>
+    </p>
+    <main>
+        <section>
+            <h2>Gastronomia de Leon</h2>
+            <p>
+                La gastronomia leonesa es una de las mas ricas y variadas de Castilla y Leon.
+                Sus platos reflejan la tradicion y la cultura de sus diferentes comarcas,
+                desde el Bierzo hasta la Montana leonesa.
+            </p>
+
+            <picture>
+                <source media="(max-width:465px)" srcset="multimedia/cecina_de_leon_movil.jpg" />
+                <source media="(max-width:799px)" srcset="multimedia/cecina_de_leon_tablet.jpg" />
+                <source media="(min-width:800px)" srcset="multimedia/cecina_de_leon.jpg" />
+                <img src="multimedia/cecina_leon.jpg"
+                     alt="Cecina de Leon, carne de vacuno curada con Indicacion Geografica Protegida" />
+            </picture>
+
+            <h3>Platos principales mas destacados</h3>
+            <ol>
+                <li>Cecina de Leon
+                <li>Botillo del Bierzo
+                <li>Morcilla leonesa
+                <li>Trucha del Sil
+            </ol>
+
+            <h3>Productos tipicos de Leon</h3>
+            <ul>
+                <li>Embutidos y chacinas
+                    <ul>
+                        <li>Cecina de Leon
+                        <li>Botillo del Bierzo
+                        <li>Chorizo leonés
+                    </ul>
+                <li>Quesos leoneses
+                <li>Vinos de la denominacion de origen Bierzo
+                <li>Pimientos asados del Bierzo
+            </ul>
+
+            <video controls preload="auto">
+                <source src="multimedia/video_leon.mp4" type="video/mp4" />
+                <source src="multimedia/video_leon.webm" type="video/webm" />
+            </video>
+
+        </section>
+
+        <aside>
+            <h3>Conceptos gastronomicos</h3>
+            <dl>
+                <dt>Cecina de Leon:
+                <dd>Carne de vacuno curada y ahumada con Indicacion Geografica Protegida, considerada el jamon de vacuno de Leon.
+                <dt>Botillo del Bierzo:
+                <dd>Embutido tipico del Bierzo elaborado con costillas, rabo y huesos de cerdo adobados y ahumados.
+                <dt>Pimientos del Bierzo:
+                <dd>Pimientos rojos asados con Denominacion de Origen Protegida, tipicos de la comarca del Bierzo.
+                <dt>Morcilla leonesa:
+                <dd>Embutido elaborado con sangre de cerdo, arroz y especias, tipico de la gastronomia leonesa.
+                <dt>Queso de Valdeon:
+                <dd>Queso azul con Indicacion Geografica Protegida, elaborado en el valle de Valdeon en Leon.
+            </dl>
+            <audio controls>
+                <source src="multimedia/audio_cecina.m4a" type="audio/m4a" />
+                <source src="multimedia/audio_cecina.mp3" type="audio/mp3" />
+            </audio>
+        </aside>
+
+        <section>
+            <h3>Informacion nutricional de la Cecina de Leon</h3>
+            <table>
+                <caption>Informacion nutricional por racion de Cecina de Leon</caption>
+                <tr>
+                    <th scope="col" id="nutriente">Nutriente</th>
+                    <th scope="col" id="cantidad">Cantidad por racion</th>
+                </tr>
+                <tr>
+                    <td headers="nutriente">Calorias</td>
+                    <td headers="cantidad">150 kcal</td>
+                </tr>
+                <tr>
+                    <td headers="nutriente">Proteinas</td>
+                    <td headers="cantidad">32 g</td>
+                </tr>
+                <tr>
+                    <td headers="nutriente">Carbohidratos</td>
+                    <td headers="cantidad">0 g</td>
+                </tr>
+                <tr>
+                    <td headers="nutriente">Grasas</td>
+                    <td headers="cantidad">4 g</td>
+                </tr>
+            </table>
+        </section>
+
+        <aside>
+            <h3>Enlaces externos</h3>
+            <nav>
+                <ul>
+                    <li><a href="https://es.wikipedia.org/wiki/Cecina_de_Leon" title="Wikipedia Cecina de Leon">Wikipedia - Cecina de Leon</a>
+                    <li><a href="https://es.wikipedia.org/wiki/Botillo" title="Wikipedia Botillo del Bierzo">Wikipedia - Botillo del Bierzo</a>
+                    <li><a href="https://es.wikipedia.org/wiki/Morcilla_de_Leon" title="Wikipedia Morcilla de Leon">Wikipedia - Morcilla de Leon</a>
+                </ul>
+            </nav>
+        </aside>
+
+    </main>
+</body>
+</html>

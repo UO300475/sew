@@ -1,0 +1,47 @@
+/* Guillermo Gil Naves - UO300475 */
+/* Estilos generales del proyecto León-Desktop */
+
+/* Especificidad: 001 */
+body {
+    font-family: Georgia, serif;
+    color: #2c2c2c;
+    background-color: #f5f0e8;
+}
+
+/* Especificidad: 001 */
+header {
+    background-color: #1a3a5c;
+    color: #f5f0e8; 
+}
+
+/* Especificidad: 002 */
+header a {
+    color: #f5f0e8; /* Hereda background-color de header */
+    text-decoration-line: none;
+}
+
+/* Especificidad: 002 */
+header a:hover {
+    text-decoration-line: underline;
+}
+
+/* Especificidad: 010 */
+.activate {
+    color: #f0c040; /* Hereda background-color de header */
+}
+
+/* Especificidad: 002 */
+header + p {
+    font-size: 0.85em;
+}
+
+/* Especificidad: 002 */
+main a {
+    color: #1a3a5c; /* Hereda background-color de body */
+    text-decoration-line: none;
+}
+
+/* Especificidad: 003 */
+main a:hover {
+    text-decoration-line: underline;
+}
