@@ -11,6 +11,11 @@
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
     <link rel="icon" href="multimedia/favicon.ico" type="image/ico" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"></script>
+    <script src="js/carrusel.js"></script>
+    <script src="js/noticias.js"></script>
 </head>
 
 <body>
@@ -27,7 +32,13 @@
         </nav>
     </header>
     <main>
-        <p>en desarrollo</p>
+        <script>
+            const carrusel = new Carrusel();
+            carrusel.mostrarFotografias();
+
+            const noticias = new Noticias("Leon turismo");
+            noticias.buscar();
+        </script>
     </main>
 </body>
 </html>

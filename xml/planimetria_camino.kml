@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Inicio: Ruta del Camino de Santiago por Leon</name>
+      <description>Recorrido por el tramo leonés del Camino de Santiago Frances, pasando por los principales hitos del camino en la ciudad de Leon y sus alrededores, con visita a iglesias, albergues historicos y monumentos jacobeos.</description>
+      <Point>
+        <coordinates>-5.5698,42.5991,837</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de Peregrinos de Leon</name>
+      <description>Punto de inicio de la etapa leonesa del Camino de Santiago, albergue historico que acoge a peregrinos de todo el mundo.</description>
+      <Point>
+        <coordinates>-5.5698,42.5991,837</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Catedral de Leon</name>
+      <description>Parada obligatoria del Camino de Santiago en Leon, los peregrinos sellan aqui su credencial en la oficina del Camino.</description>
+      <Point>
+        <coordinates>-5.5706,42.5988,838</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Iglesia de Santa Maria del Camino</name>
+      <description>Antigua iglesia romanica del siglo XII, punto de referencia tradicional para los peregrinos que atraviesan Leon.</description>
+      <Point>
+        <coordinates>-5.5743,42.5993,839</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hospital de Orbigo</name>
+      <description>Pueblo con el puente medieval mas largo de Espana, escenario del famoso Paso Honroso del caballero Suero de Quinones en 1434.</description>
+      <Point>
+        <coordinates>-5.8765,42.4567,820</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Astorga</name>
+      <description>Ciudad romana con impresionante catedral gotica y el Palacio Episcopal disenado por Gaudi, importante cruce de caminos jacobeos.</description>
+      <Point>
+        <coordinates>-6.0565,42.4587,869</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <name>Ruta del Camino de Santiago por Leon</name>
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellation>1</tessellation>
+        <coordinates>-5.5698,42.5991,837
+-5.5698,42.5991,837
+-5.5706,42.5988,838
+-5.5743,42.5993,839
+-5.8765,42.4567,820
+-6.0565,42.4587,869</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>#ff0000ff</color>
+          <width>5</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>

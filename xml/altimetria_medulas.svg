@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" width="1000" height="500" viewBox="0 0 1000 500">
+  <rect x="0" y="0" width="1000" height="500" fill="white" />
+  <text x="80" y="40" font-family="Arial" font-size="20" fill="darkblue">Altimetria: Ruta de las Medulas</text>
+  <polyline points="80.0,440.0 80.0,440.0 309.0909090909091,60.0 461.8181818181818,193.0 748.1818181818182,345.0 920.0,402.0 920.0,440 80.0,440 80.0,440.0" stroke="none" stroke-width="0" fill="lightgrey" />
+  <polyline points="80.0,440.0 80.0,440.0 309.0909090909091,60.0 461.8181818181818,193.0 748.1818181818182,345.0 920.0,402.0 " stroke="blue" stroke-width="3" fill="none" />
+  <line x1="80" y1="440" x2="920" y2="440" stroke="black" stroke-width="2" />
+  <line x1="80" y1="60" x2="80" y2="440" stroke="black" stroke-width="2" />
+  <line x1="80.0" y1="440" x2="80.0" y2="445" stroke="black" stroke-width="1" />
+  <text x="65.0" y="460" font-family="Arial" font-size="10" fill="black">0m</text>
+  <line x1="248.0" y1="440" x2="248.0" y2="445" stroke="black" stroke-width="1" />
+  <text x="233.0" y="460" font-family="Arial" font-size="10" fill="black">880m</text>
+  <line x1="416.0" y1="440" x2="416.0" y2="445" stroke="black" stroke-width="1" />
+  <text x="401.0" y="460" font-family="Arial" font-size="10" fill="black">1760m</text>
+  <line x1="584.0" y1="440" x2="584.0" y2="445" stroke="black" stroke-width="1" />
+  <text x="569.0" y="460" font-family="Arial" font-size="10" fill="black">2640m</text>
+  <line x1="752.0" y1="440" x2="752.0" y2="445" stroke="black" stroke-width="1" />
+  <text x="737.0" y="460" font-family="Arial" font-size="10" fill="black">3520m</text>
+  <line x1="920.0" y1="440" x2="920.0" y2="445" stroke="black" stroke-width="1" />
+  <text x="905.0" y="460" font-family="Arial" font-size="10" fill="black">4400m</text>
+  <line x1="75" y1="440.0" x2="80" y2="440.0" stroke="black" stroke-width="1" />
+  <text x="5" y="445.0" font-family="Arial" font-size="10" fill="black">850m</text>
+  <line x1="75" y1="364.0" x2="80" y2="364.0" stroke="black" stroke-width="1" />
+  <text x="5" y="369.0" font-family="Arial" font-size="10" fill="black">890m</text>
+  <line x1="75" y1="288.0" x2="80" y2="288.0" stroke="black" stroke-width="1" />
+  <text x="5" y="293.0" font-family="Arial" font-size="10" fill="black">930m</text>
+  <line x1="75" y1="212.0" x2="80" y2="212.0" stroke="black" stroke-width="1" />
+  <text x="5" y="217.0" font-family="Arial" font-size="10" fill="black">970m</text>
+  <line x1="75" y1="136.0" x2="80" y2="136.0" stroke="black" stroke-width="1" />
+  <text x="5" y="141.0" font-family="Arial" font-size="10" fill="black">1010m</text>
+  <line x1="75" y1="60.0" x2="80" y2="60.0" stroke="black" stroke-width="1" />
+  <text x="5" y="65.0" font-family="Arial" font-size="10" fill="black">1050m</text>
+  <circle cx="80.0" cy="440.0" r="4" fill="red" stroke="none" stroke-width="0" />
+  <text x="85.0" y="430.0" font-family="Arial" font-size="9" fill="red">Inicio</text>
+  <circle cx="80.0" cy="440.0" r="4" fill="red" stroke="none" stroke-width="0" />
+  <text x="85.0" y="430.0" font-family="Arial" font-size="9" fill="red">Pueblo de Las Medulas</text>
+  <circle cx="309.0909090909091" cy="60.0" r="4" fill="red" stroke="none" stroke-width="0" />
+  <text x="314.0909090909091" y="50.0" font-family="Arial" font-size="9" fill="red">Mirador de Orellán</text>
+  <circle cx="461.8181818181818" cy="193.0" r="4" fill="red" stroke="none" stroke-width="0" />
+  <text x="466.8181818181818" y="183.0" font-family="Arial" font-size="9" fill="red">Cueva de Orellán</text>
+  <circle cx="748.1818181818182" cy="345.0" r="4" fill="red" stroke="none" stroke-width="0" />
+  <text x="753.1818181818182" y="335.0" font-family="Arial" font-size="9" fill="red">Lago de Somido</text>
+  <circle cx="920.0" cy="402.0" r="4" fill="red" stroke="none" stroke-width="0" />
+  <text x="925.0" y="392.0" font-family="Arial" font-size="9" fill="red">Bosque de Castanos</text>
+</svg>

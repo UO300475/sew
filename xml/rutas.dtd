@@ -1,0 +1,80 @@
+<!-- DTD para rutas.xml -->
+
+<!ELEMENT rutas (ruta, ruta, ruta+)>
+
+<!ELEMENT ruta (nombre, tipo, transporte, fechaInicio?, horaInicio?, duracion, agencia, descripcion, personas, lugarInicio, direccionInicio, coordenadasInicio, referencias, recomendacion, hitos, planimetria, altimetria)>
+
+<!-- Nombre de la ruta -->
+<!ELEMENT nombre (#PCDATA)>
+
+<!-- Tipo de ruta -->
+<!ELEMENT tipo (#PCDATA)>
+
+<!-- Medio de transporte -->
+<!ELEMENT transporte (#PCDATA)>
+
+<!-- Fecha y hora de inicio (opcionales) -->
+<!ELEMENT fechaInicio (#PCDATA)>
+<!ELEMENT horaInicio (#PCDATA)>
+
+<!-- Duracion de la ruta -->
+<!ELEMENT duracion (#PCDATA)>
+
+<!-- Agencia que gestiona la ruta -->
+<!ELEMENT agencia (#PCDATA)>
+
+<!-- Descripcion de la ruta -->
+<!ELEMENT descripcion (#PCDATA)>
+
+<!-- Personas adecuadas para la ruta -->
+<!ELEMENT personas (#PCDATA)>
+
+<!-- Lugar e inicio de la ruta -->
+<!ELEMENT lugarInicio (#PCDATA)>
+<!ELEMENT direccionInicio (#PCDATA)>
+
+<!-- Coordenadas geograficas de inicio -->
+<!ELEMENT coordenadasInicio (longitud, latitud, altitud)>
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud unidad CDATA #REQUIRED>
+<!ELEMENT latitud (#PCDATA)>
+<!ATTLIST latitud unidad CDATA #REQUIRED>
+<!ELEMENT altitud (#PCDATA)>
+<!ATTLIST altitud unidad CDATA #REQUIRED>
+
+<!-- Referencias y bibliografia -->
+<!ELEMENT referencias (referencia, referencia, referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+<!ATTLIST referencia
+    tipo CDATA #REQUIRED
+    url  CDATA #REQUIRED>
+
+<!-- Recomendacion de la ruta -->
+<!ELEMENT recomendacion (#PCDATA)>
+
+<!-- Hitos de la ruta -->
+<!ELEMENT hitos (hito, hito, hito, hito, hito+)>
+<!ELEMENT hito (nombreHito, descripcionHito, coordenadasHito, distanciaAnterior, galeriaFotos, galeriaVideos?)>
+<!ELEMENT nombreHito (#PCDATA)>
+<!ELEMENT descripcionHito (#PCDATA)>
+<!ELEMENT coordenadasHito (longitud, latitud, altitud)>
+<!ELEMENT distanciaAnterior (#PCDATA)>
+<!ATTLIST distanciaAnterior unidad CDATA #REQUIRED>
+
+<!-- Galeria de fotos del hito -->
+<!ELEMENT galeriaFotos (foto+)>
+<!ELEMENT foto EMPTY>
+<!ATTLIST foto
+    archivo CDATA #REQUIRED
+    titulo  CDATA #IMPLIED>
+
+<!-- Galeria de videos del hito (opcional) -->
+<!ELEMENT galeriaVideos (video+)>
+<!ELEMENT video EMPTY>
+<!ATTLIST video
+    archivo CDATA #REQUIRED
+    titulo  CDATA #IMPLIED>
+
+<!-- Planimetria y altimetria -->
+<!ELEMENT planimetria (#PCDATA)>
+<!ELEMENT altimetria (#PCDATA)>

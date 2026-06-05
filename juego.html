@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
     <link rel="icon" href="multimedia/favicon.ico" type="image/ico" />
+    <script src="js/juego.js"></script>
 </head>
 
 <body>
@@ -28,8 +29,10 @@
     </header>
     <p>Estas en: <a href="index.html" title="Pantalla Principal">Inicio</a> >> <strong>Juego</strong></p>
     <main>
-        <h2>Juego sobre Leon</h2>
-        <p>en desarrollo</p>
+        <script>
+            const juego = new Juego();
+            juego.mostrar();
+        </script>
     </main>
 </body>
 </html>

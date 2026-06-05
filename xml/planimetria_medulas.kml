@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Inicio: Ruta de las Medulas</name>
+      <description>Ruta por el paisaje unico de Las Medulas, antigua mina de oro romana declarada Patrimonio de la Humanidad por la UNESCO. El recorrido atraviesa bosques de castanos y miradores con vistas a las formaciones rocosas rojizas.</description>
+      <Point>
+        <coordinates>-6.7731,42.4578,850</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pueblo de Las Medulas</name>
+      <description>Punto de inicio de la ruta, pequeno pueblo con centro de interpretacion de Las Medulas.</description>
+      <Point>
+        <coordinates>-6.7731,42.4578,850</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mirador de Orellán</name>
+      <description>Espectacular mirador desde el que se contemplan las formaciones rocosas rojizas de Las Medulas y el valle del Bierzo.</description>
+      <Point>
+        <coordinates>-6.7812,42.4612,1050</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cueva de Orellán</name>
+      <description>Cueva artificial excavada por los romanos durante las labores mineras, permite adentrarse en la historia de la explotacion aurifera.</description>
+      <Point>
+        <coordinates>-6.7798,42.4598,980</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lago de Somido</name>
+      <description>Lago artificial creado por los romanos para almacenar agua utilizada en las labores mineras de Las Medulas.</description>
+      <Point>
+        <coordinates>-6.7756,42.4545,900</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bosque de Castanos</name>
+      <description>Bosque de castanos centenarios que rodea Las Medulas, especialmente espectacular en otono con los colores del follaje.</description>
+      <Point>
+        <coordinates>-6.7743,42.4560,870</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <name>Ruta de las Medulas</name>
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellation>1</tessellation>
+        <coordinates>-6.7731,42.4578,850
+-6.7731,42.4578,850
+-6.7812,42.4612,1050
+-6.7798,42.4598,980
+-6.7756,42.4545,900
+-6.7743,42.4560,870</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>#ff0000ff</color>
+          <width>5</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>

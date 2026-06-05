@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rutas xmlns="http://www.uniovi.es"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+xsi:schemaLocation="http://www.uniovi.es rutas.xsd">
+
+  <ruta>
+    <nombre>Ruta de las Medulas</nombre>
+    <tipo>Paisajistica</tipo>
+    <transporte>A pie</transporte>
+    <fechaInicio>2025-06-15</fechaInicio>
+    <horaInicio>09:00</horaInicio>
+    <duracion>4 horas</duracion>
+    <agencia>Turismo del Bierzo</agencia>
+    <descripcion>Ruta por el paisaje unico de Las Medulas, antigua mina de oro romana declarada Patrimonio de la Humanidad por la UNESCO. El recorrido atraviesa bosques de castanos y miradores con vistas a las formaciones rocosas rojizas.</descripcion>
+    <personas>Apta para toda la familia, se recomienda calzado deportivo</personas>
+    <lugarInicio>Pueblo de Las Medulas</lugarInicio>
+    <direccionInicio>Plaza de Las Medulas</direccionInicio>
+    <coordenadasInicio>
+      <longitud unidad="deg">-6.7731</longitud>
+      <latitud unidad="deg">42.4578</latitud>
+      <altitud unidad="m">850</altitud>
+    </coordenadasInicio>
+    <referencias>
+      <referencia tipo="web" url="https://es.wikipedia.org/wiki/Las_M%C3%A9dulas">Wikipedia - Las Medulas</referencia>
+      <referencia tipo="web" url="https://www.turismocastillayleon.com/es/arte-cultura-patrimonio/patrimonio-mundial-humanidad/medulas">Turismo Castilla y Leon - Las Medulas</referencia>
+      <referencia tipo="web" url="https://www.bierzoturismo.com/las-medulas/">Bierzo Turismo - Las Medulas</referencia>
+    </referencias>
+    <recomendacion>9</recomendacion>
+    <hitos>
+      <hito>
+        <nombreHito>Pueblo de Las Medulas</nombreHito>
+        <descripcionHito>Punto de inicio de la ruta, pequeno pueblo con centro de interpretacion de Las Medulas.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-6.7731</longitud>
+          <latitud unidad="deg">42.4578</latitud>
+          <altitud unidad="m">850</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">0</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/medulas_pueblo.jpg" titulo="Pueblo de Las Medulas"/>
+        </galeriaFotos>
+      </hito>
+      <hito>
+        <nombreHito>Mirador de Orellán</nombreHito>
+        <descripcionHito>Espectacular mirador desde el que se contemplan las formaciones rocosas rojizas de Las Medulas y el valle del Bierzo.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-6.7812</longitud>
+          <latitud unidad="deg">42.4612</latitud>
+          <altitud unidad="m">1050</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">1200</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/medulas_orelan.jpg" titulo="Mirador de Orelan"/>
+        </galeriaFotos>
+      </hito>
+      <hito>
+        <nombreHito>Cueva de Orellán</nombreHito>
+        <descripcionHito>Cueva artificial excavada por los romanos durante las labores mineras, permite adentrarse en la historia de la explotacion aurifera.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-6.7798</longitud>
+          <latitud unidad="deg">42.4598</latitud>
+          <altitud unidad="m">980</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">800</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/medulas_cueva.jpg" titulo="Cueva de Orelan"/>
+        </galeriaFotos>
+      </hito>
+      <hito>
+        <nombreHito>Lago de Somido</nombreHito>
+        <descripcionHito>Lago artificial creado por los romanos para almacenar agua utilizada en las labores mineras de Las Medulas.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-6.7756</longitud>
+          <latitud unidad="deg">42.4545</latitud>
+          <altitud unidad="m">900</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">1500</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/medulas_lago.jpg" titulo="Lago de Somido"/>
+        </galeriaFotos>
+      </hito>
+      <hito>
+        <nombreHito>Bosque de Castanos</nombreHito>
+        <descripcionHito>Bosque de castanos centenarios que rodea Las Medulas, especialmente espectacular en otono con los colores del follaje.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-6.7743</longitud>
+          <latitud unidad="deg">42.4560</latitud>
+          <altitud unidad="m">870</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">900</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/medulas_castanos.jpg" titulo="Bosque de Castanos"/>
+        </galeriaFotos>
+      </hito>
+    </hitos>
+    <planimetria>planimetria_medulas.kml</planimetria>
+    <altimetria>altimetria_medulas.svg</altimetria>
+  </ruta>
+
+  <ruta>
+    <nombre>Ruta de la Catedral de Leon</nombre>
+    <tipo>Arquitectura y monumentos</tipo>
+    <transporte>A pie</transporte>
+    <fechaInicio>2025-07-10</fechaInicio>
+    <horaInicio>10:00</horaInicio>
+    <duracion>3 horas</duracion>
+    <agencia>Turismo de Leon</agencia>
+    <descripcion>Ruta por el casco historico de Leon con visita a sus principales monumentos, destacando la impresionante Catedral gotica conocida como la Pulchra Leonina por sus espectaculares vidrieras.</descripcion>
+    <personas>Apta para todas las edades, incluida la tercera edad</personas>
+    <lugarInicio>Plaza de Regla</lugarInicio>
+    <direccionInicio>Plaza de Regla s/n</direccionInicio>
+    <coordenadasInicio>
+      <longitud unidad="deg">-5.5706</longitud>
+      <latitud unidad="deg">42.5988</latitud>
+      <altitud unidad="m">838</altitud>
+    </coordenadasInicio>
+    <referencias>
+      <referencia tipo="web" url="https://es.wikipedia.org/wiki/Catedral_de_Le%C3%B3n">Wikipedia - Catedral de Leon</referencia>
+      <referencia tipo="web" url="https://www.turismoleon.org/monumentos/catedral.php">Turismo Leon - Catedral</referencia>
+      <referencia tipo="web" url="https://www.catedraldeleon.org/">Web oficial de la Catedral de Leon</referencia>
+    </referencias>
+    <recomendacion>10</recomendacion>
+    <hitos>
+      <hito>
+        <nombreHito>Catedral de Leon</nombreHito>
+        <descripcionHito>La Pulchra Leonina, joya del gotico espanol, famosa por sus mas de 1800 metros cuadrados de vidrieras medievales.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-5.5706</longitud>
+          <latitud unidad="deg">42.5988</latitud>
+          <altitud unidad="m">838</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">0</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/catedral_leon.jpg" titulo="Catedral de Leon"/>
+        </galeriaFotos>
+      </hito>
+      <hito>
+        <nombreHito>Basilica de San Isidoro</nombreHito>
+        <descripcionHito>Joya del romanico espanol que alberga el Panteon Real, considerado la Capilla Sixtina del romanico por sus frescos medievales.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-5.5731</longitud>
+          <latitud unidad="deg">42.5998</latitud>
+          <altitud unidad="m">840</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">350</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/san_isidoro.jpg" titulo="Basilica de San Isidoro"/>
+        </galeriaFotos>
+      </hito>
+      <hito>
+        <nombreHito>Barrio Humedo</nombreHito>
+        <descripcionHito>Centro neuralgico de la vida social leonesa, famoso por sus bares de tapas y su ambiente animado tanto de dia como de noche.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-5.5712</longitud>
+          <latitud unidad="deg">42.5975</latitud>
+          <altitud unidad="m">836</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">400</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/barrio_humedo.jpg" titulo="Barrio Humedo de Leon"/>
+        </galeriaFotos>
+      </hito>
+      <hito>
+        <nombreHito>Casa Botines</nombreHito>
+        <descripcionHito>Edificio modernista disenado por Antoni Gaudi, actualmente museo que alberga obras de arte y exposiciones temporales.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-5.5723</longitud>
+          <latitud unidad="deg">42.5982</latitud>
+          <altitud unidad="m">837</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">300</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/casa_botines.jpg" titulo="Casa Botines de Gaudi"/>
+        </galeriaFotos>
+      </hito>
+      <hito>
+        <nombreHito>Palacio de los Guzmanes</nombreHito>
+        <descripcionHito>Magnifico palacio renacentista del siglo XVI, sede de la Diputacion Provincial de Leon, con un hermoso patio interior.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-5.5719</longitud>
+          <latitud unidad="deg">42.5984</latitud>
+          <altitud unidad="m">837</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">150</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/palacio_guzmanes.jpg" titulo="Palacio de los Guzmanes"/>
+        </galeriaFotos>
+      </hito>
+    </hitos>
+    <planimetria>planimetria_catedral.kml</planimetria>
+    <altimetria>altimetria_catedral.svg</altimetria>
+  </ruta>
+
+  <ruta>
+    <nombre>Ruta del Camino de Santiago por Leon</nombre>
+    <tipo>Mixta tapas y monumentos</tipo>
+    <transporte>A pie</transporte>
+    <fechaInicio>2025-08-05</fechaInicio>
+    <horaInicio>08:00</horaInicio>
+    <duracion>6 horas</duracion>
+    <agencia>Sin agencia</agencia>
+    <descripcion>Recorrido por el tramo leonés del Camino de Santiago Frances, pasando por los principales hitos del camino en la ciudad de Leon y sus alrededores, con visita a iglesias, albergues historicos y monumentos jacobeos.</descripcion>
+    <personas>Personas en buena forma fisica, se recomienda experiencia previa en senderismo</personas>
+    <lugarInicio>Albergue de Peregrinos de Leon</lugarInicio>
+    <direccionInicio>Calle de la Independencia, 4</direccionInicio>
+    <coordenadasInicio>
+      <longitud unidad="deg">-5.5698</longitud>
+      <latitud unidad="deg">42.5991</latitud>
+      <altitud unidad="m">837</altitud>
+    </coordenadasInicio>
+    <referencias>
+      <referencia tipo="web" url="https://es.wikipedia.org/wiki/Camino_de_Santiago">Wikipedia - Camino de Santiago</referencia>
+      <referencia tipo="web" url="https://www.caminodesantiago.gal/es/">Web oficial del Camino de Santiago</referencia>
+      <referencia tipo="web" url="https://www.turismoleon.org/camino-de-santiago.php">Turismo Leon - Camino de Santiago</referencia>
+    </referencias>
+    <recomendacion>8</recomendacion>
+    <hitos>
+      <hito>
+        <nombreHito>Albergue de Peregrinos de Leon</nombreHito>
+        <descripcionHito>Punto de inicio de la etapa leonesa del Camino de Santiago, albergue historico que acoge a peregrinos de todo el mundo.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-5.5698</longitud>
+          <latitud unidad="deg">42.5991</latitud>
+          <altitud unidad="m">837</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">0</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/albergue_leon.jpg" titulo="Albergue de Peregrinos de Leon"/>
+        </galeriaFotos>
+      </hito>
+      <hito>
+        <nombreHito>Catedral de Leon</nombreHito>
+        <descripcionHito>Parada obligatoria del Camino de Santiago en Leon, los peregrinos sellan aqui su credencial en la oficina del Camino.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-5.5706</longitud>
+          <latitud unidad="deg">42.5988</latitud>
+          <altitud unidad="m">838</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">500</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/catedral_camino.jpg" titulo="Catedral de Leon en el Camino"/>
+        </galeriaFotos>
+      </hito>
+      <hito>
+        <nombreHito>Iglesia de Santa Maria del Camino</nombreHito>
+        <descripcionHito>Antigua iglesia romanica del siglo XII, punto de referencia tradicional para los peregrinos que atraviesan Leon.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-5.5743</longitud>
+          <latitud unidad="deg">42.5993</latitud>
+          <altitud unidad="m">839</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">600</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/santa_maria_camino.jpg" titulo="Iglesia de Santa Maria del Camino"/>
+        </galeriaFotos>
+      </hito>
+      <hito>
+        <nombreHito>Hospital de Orbigo</nombreHito>
+        <descripcionHito>Pueblo con el puente medieval mas largo de Espana, escenario del famoso Paso Honroso del caballero Suero de Quinones en 1434.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-5.8765</longitud>
+          <latitud unidad="deg">42.4567</latitud>
+          <altitud unidad="m">820</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">15000</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/hospital_orbigo.jpg" titulo="Puente de Hospital de Orbigo"/>
+        </galeriaFotos>
+      </hito>
+      <hito>
+        <nombreHito>Astorga</nombreHito>
+        <descripcionHito>Ciudad romana con impresionante catedral gotica y el Palacio Episcopal disenado por Gaudi, importante cruce de caminos jacobeos.</descripcionHito>
+        <coordenadasHito>
+          <longitud unidad="deg">-6.0565</longitud>
+          <latitud unidad="deg">42.4587</latitud>
+          <altitud unidad="m">869</altitud>
+        </coordenadasHito>
+        <distanciaAnterior unidad="m">16000</distanciaAnterior>
+        <galeriaFotos>
+          <foto archivo="multimedia/astorga.jpg" titulo="Astorga en el Camino de Santiago"/>
+        </galeriaFotos>
+      </hito>
+    </hitos>
+    <planimetria>planimetria_camino.kml</planimetria>
+    <altimetria>altimetria_camino.svg</altimetria>
+  </ruta>
+
+</rutas>

@@ -16,7 +16,7 @@ header {
 
 /* Especificidad: 002 */
 header a {
-    color: #f5f0e8; /* Hereda background-color de header */
+    color: #f5f0e8; /* Hereda background-color de header (#1a3a5c), contraste AAA verificado */
     text-decoration-line: none;
 }
 
@@ -27,7 +27,7 @@ header a:hover {
 
 /* Especificidad: 010 */
 .activate {
-    color: #f0c040; /* Hereda background-color de header */
+    color: #f0c040; /* Hereda background-color de header (#1a3a5c), contraste AAA verificado */
 }
 
 /* Especificidad: 002 */
@@ -37,7 +37,7 @@ header + p {
 
 /* Especificidad: 002 */
 main a {
-    color: #1a3a5c; /* Hereda background-color de body */
+    color: #1a3a5c; /* Hereda background-color de body (#f5f0e8), contraste AAA verificado */
     text-decoration-line: none;
 }
 

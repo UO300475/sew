@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" width="1000" height="500" viewBox="0 0 1000 500">
+  <rect x="0" y="0" width="1000" height="500" fill="white" />
+  <text x="80" y="40" font-family="Arial" font-size="20" fill="darkblue">Altimetria: Ruta de la Catedral de Leon</text>
+  <polyline points="80.0,250.0 80.0,250.0 325.0,60.0 605.0,440.0 815.0,345.0 920.0,345.0 920.0,440 80.0,440 80.0,250.0" stroke="none" stroke-width="0" fill="lightgrey" />
+  <polyline points="80.0,250.0 80.0,250.0 325.0,60.0 605.0,440.0 815.0,345.0 920.0,345.0 " stroke="blue" stroke-width="3" fill="none" />
+  <line x1="80" y1="440" x2="920" y2="440" stroke="black" stroke-width="2" />
+  <line x1="80" y1="60" x2="80" y2="440" stroke="black" stroke-width="2" />
+  <line x1="80.0" y1="440" x2="80.0" y2="445" stroke="black" stroke-width="1" />
+  <text x="65.0" y="460" font-family="Arial" font-size="10" fill="black">0m</text>
+  <line x1="248.0" y1="440" x2="248.0" y2="445" stroke="black" stroke-width="1" />
+  <text x="233.0" y="460" font-family="Arial" font-size="10" fill="black">240m</text>
+  <line x1="416.0" y1="440" x2="416.0" y2="445" stroke="black" stroke-width="1" />
+  <text x="401.0" y="460" font-family="Arial" font-size="10" fill="black">480m</text>
+  <line x1="584.0" y1="440" x2="584.0" y2="445" stroke="black" stroke-width="1" />
+  <text x="569.0" y="460" font-family="Arial" font-size="10" fill="black">720m</text>
+  <line x1="752.0" y1="440" x2="752.0" y2="445" stroke="black" stroke-width="1" />
+  <text x="737.0" y="460" font-family="Arial" font-size="10" fill="black">960m</text>
+  <line x1="920.0" y1="440" x2="920.0" y2="445" stroke="black" stroke-width="1" />
+  <text x="905.0" y="460" font-family="Arial" font-size="10" fill="black">1200m</text>
+  <line x1="75" y1="440.0" x2="80" y2="440.0" stroke="black" stroke-width="1" />
+  <text x="5" y="445.0" font-family="Arial" font-size="10" fill="black">836m</text>
+  <line x1="75" y1="364.0000000000043" x2="80" y2="364.0000000000043" stroke="black" stroke-width="1" />
+  <text x="5" y="369.0000000000043" font-family="Arial" font-size="10" fill="black">837m</text>
+  <line x1="75" y1="287.99999999999784" x2="80" y2="287.99999999999784" stroke="black" stroke-width="1" />
+  <text x="5" y="292.99999999999784" font-family="Arial" font-size="10" fill="black">838m</text>
+  <line x1="75" y1="212.00000000000216" x2="80" y2="212.00000000000216" stroke="black" stroke-width="1" />
+  <text x="5" y="217.00000000000216" font-family="Arial" font-size="10" fill="black">838m</text>
+  <line x1="75" y1="135.99999999999568" x2="80" y2="135.99999999999568" stroke="black" stroke-width="1" />
+  <text x="5" y="140.99999999999568" font-family="Arial" font-size="10" fill="black">839m</text>
+  <line x1="75" y1="60.0" x2="80" y2="60.0" stroke="black" stroke-width="1" />
+  <text x="5" y="65.0" font-family="Arial" font-size="10" fill="black">840m</text>
+  <circle cx="80.0" cy="250.0" r="4" fill="red" stroke="none" stroke-width="0" />
+  <text x="85.0" y="240.0" font-family="Arial" font-size="9" fill="red">Inicio</text>
+  <circle cx="80.0" cy="250.0" r="4" fill="red" stroke="none" stroke-width="0" />
+  <text x="85.0" y="240.0" font-family="Arial" font-size="9" fill="red">Catedral de Leon</text>
+  <circle cx="325.0" cy="60.0" r="4" fill="red" stroke="none" stroke-width="0" />
+  <text x="330.0" y="50.0" font-family="Arial" font-size="9" fill="red">Basilica de San Isidoro</text>
+  <circle cx="605.0" cy="440.0" r="4" fill="red" stroke="none" stroke-width="0" />
+  <text x="610.0" y="430.0" font-family="Arial" font-size="9" fill="red">Barrio Humedo</text>
+  <circle cx="815.0" cy="345.0" r="4" fill="red" stroke="none" stroke-width="0" />
+  <text x="820.0" y="335.0" font-family="Arial" font-size="9" fill="red">Casa Botines</text>
+  <circle cx="920.0" cy="345.0" r="4" fill="red" stroke="none" stroke-width="0" />
+  <text x="925.0" y="335.0" font-family="Arial" font-size="9" fill="red">Palacio de los Guzmanes</text>
+</svg>

@@ -34,9 +34,11 @@
         <section>
             <h3>Inicio</h3>
             <p>
-                Pantalla principal del sitio web Leon Desktop. En ella se podra observar un
-                carrusel de fotos con los principales recursos turisticos de la provincia de
-                Leon, asi como noticias de actualidad sobre Leon obtenidas de servicios web.
+                Pagina principal del sitio web Leon Desktop. Contiene un carrusel de fotos
+                con los principales recursos turisticos de la provincia de Leon, incluyendo
+                un mapa de situacion de la provincia. Las fotos cambian automaticamente
+                cada 3 segundos. Ademas se muestran las ultimas noticias sobre Leon
+                obtenidas del servicio web TheNewsAPI.
             </p>
         </section>
         <section>
@@ -53,37 +55,57 @@
         <section>
             <h3>Rutas</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
+                En esta pagina se muestran las rutas turisticas de la provincia de Leon.
+                La informacion se carga dinamicamente a partir del archivo rutas.xml.
+                Para cada ruta se muestra su nombre, descripcion, tipo, medio de
+                transporte, duracion, agencia, lugar de inicio y recomendacion, asi
+                como los hitos de la ruta con su descripcion y distancia. Ademas se
+                pueden cargar los archivos SVG de altimetria y KML de planimetria de
+                cada ruta. El archivo SVG muestra el perfil altimetrico de la ruta y
+                el archivo KML muestra la ruta sobre un mapa dinamico de Mapbox.
             </p>
         </section>
         <section>
             <h3>Meteorologia</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
+                En esta pagina se muestra la informacion meteorologica en tiempo real
+                de la ciudad de Leon, capital de la provincia. Se muestran los datos
+                actuales de temperatura, sensacion termica, lluvia, humedad, velocidad
+                y direccion del viento, hora de salida y puesta del sol. Ademas se
+                muestra la prevision meteorologica para los proximos 7 dias con las
+                temperaturas maxima y minima, lluvia y viento maximo de cada dia.
+                Los datos se obtienen del servicio web Open-Meteo.
             </p>
         </section>
         <section>
             <h3>Juego</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
+                En esta pagina se puede realizar un juego de 10 preguntas tipo test
+                sobre los recursos turisticos de la provincia de Leon. Cada pregunta
+                tiene 5 opciones de respuesta y una sola respuesta correcta. Las
+                preguntas versan sobre informacion contenida en el sitio web. Se
+                deben responder todas las preguntas antes de enviar las respuestas.
+                Al finalizar se muestra la puntuacion obtenida de 0 a 10.
             </p>
         </section>
         <section>
             <h3>Reservas</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
+                En esta pagina se puede acceder a la central de reservas de recursos
+                turisticos de Leon. Se pueden realizar las siguientes acciones:
+                registrarse como usuario nuevo, iniciar sesion con un usuario existente,
+                consultar los recursos turisticos disponibles con sus precios, plazas
+                y fechas disponibles, realizar una reserva indicando el numero de
+                personas y obteniendo el precio total, consultar las reservas
+                realizadas y anular reservas existentes. Los recursos turisticos
+                disponibles son de diferentes tipos: museos, rutas, restaurantes
+                y hoteles.
+            </p>
+            <p>
+                Para la administracion de la base de datos, el administrador puede 
+                acceder a la <a href="php/configuracion.php" title="Configuracion de la base de datos">pagina de configuracion</a> 
+                donde puede crear, reiniciar o eliminar la base de datos, asi como 
+                cargar o exportar datos en formato CSV.
             </p>
         </section>
     </main>

@@ -11,6 +11,12 @@
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
     <link rel="icon" href="multimedia/favicon.ico" type="image/ico" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"></script>
+    <script src="js/rutas.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
 </head>
 
 <body>
@@ -28,8 +34,15 @@
     </header>
     <p>Estas en: <a href="index.html" title="Pantalla Principal">Inicio</a> >> <strong>Rutas</strong></p>
     <main>
-        <h2>Rutas turisticas por Leon</h2>
-        <p>en desarrollo</p>
+        <script>
+            const rutas = new Rutas();
+        </script>
+        <section>
+            <h2>Rutas turisticas de Leon</h2>
+            <script>
+                rutas.leerRutasXML();
+            </script>
+        </section>
     </main>
 </body>
 </html>

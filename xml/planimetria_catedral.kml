@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Inicio: Ruta de la Catedral de Leon</name>
+      <description>Ruta por el casco historico de Leon con visita a sus principales monumentos, destacando la impresionante Catedral gotica conocida como la Pulchra Leonina por sus espectaculares vidrieras.</description>
+      <Point>
+        <coordinates>-5.5706,42.5988,838</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Catedral de Leon</name>
+      <description>La Pulchra Leonina, joya del gotico espanol, famosa por sus mas de 1800 metros cuadrados de vidrieras medievales.</description>
+      <Point>
+        <coordinates>-5.5706,42.5988,838</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Basilica de San Isidoro</name>
+      <description>Joya del romanico espanol que alberga el Panteon Real, considerado la Capilla Sixtina del romanico por sus frescos medievales.</description>
+      <Point>
+        <coordinates>-5.5731,42.5998,840</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Humedo</name>
+      <description>Centro neuralgico de la vida social leonesa, famoso por sus bares de tapas y su ambiente animado tanto de dia como de noche.</description>
+      <Point>
+        <coordinates>-5.5712,42.5975,836</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Casa Botines</name>
+      <description>Edificio modernista disenado por Antoni Gaudi, actualmente museo que alberga obras de arte y exposiciones temporales.</description>
+      <Point>
+        <coordinates>-5.5723,42.5982,837</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Palacio de los Guzmanes</name>
+      <description>Magnifico palacio renacentista del siglo XVI, sede de la Diputacion Provincial de Leon, con un hermoso patio interior.</description>
+      <Point>
+        <coordinates>-5.5719,42.5984,837</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <name>Ruta de la Catedral de Leon</name>
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellation>1</tessellation>
+        <coordinates>-5.5706,42.5988,838
+-5.5706,42.5988,838
+-5.5731,42.5998,840
+-5.5712,42.5975,836
+-5.5723,42.5982,837
+-5.5719,42.5984,837</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>#ff0000ff</color>
+          <width>5</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>
